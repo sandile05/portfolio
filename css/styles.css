@@ -71,6 +71,14 @@
     color: #fff;
 }
 
+/* menu button styles */
+.menu-btn{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
 /* home section styles */
 
 .home{
