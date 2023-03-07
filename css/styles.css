@@ -131,14 +131,11 @@
     color: crimson;
     background: none;
 }
-/* about section styling */
+/* all similar styling code  */
 section{
     padding: 100px 0;
 }
-.about{
-    font-family: 'Poppins', sans-serif;
-}
-.about .title{
+section .title{
     position: relative;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
@@ -147,7 +144,7 @@ section{
     margin-bottom: 60px;
     padding-bottom: 20px;
 }
-.about .title::before{
+section .title::before{
     content: "";
     position: absolute;
     width: 180px;
@@ -157,8 +154,7 @@ section{
     background: #111;
     transform: translateX(-50%);
 }
-.about .title::after{
-    content: "who i am";
+section .title::after{
     position: absolute;
     padding: 5px;
     bottom: -12px;
@@ -168,7 +164,14 @@ section{
     background: #fff;
     transform: translateX(-50%);
 }
-.about .about-content{
+/* about section styling */
+.about, .services{
+    font-family: 'Poppins', sans-serif;
+}
+.about .title::after{
+    content: "who i am";
+}
+.about .about-content, .services .services-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -213,6 +216,50 @@ section{
 .about .about-content .right a:hover{
     color: crimson;
     background: none;
+}
+
+/* services section styling */
+.services{
+    background: #111;
+    color: #fff;
+}
+.services .title::before{
+    background: #fff;
+}
+.services .title::after{
+    background: #111;;
+    content: "what i provide";
+}
+.services .services-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services .services-content .card:hover{
+    background: crimson;
+}
+.services .services-content .card .box{
+    transition: all 0.3s ease;
+}
+.services .services-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services .services-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.services .services-content .card:hover i{
+    color: #fff;
+}
+.services .services-content  .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
 }
 
 /* responsive media query start */
