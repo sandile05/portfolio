@@ -340,6 +340,10 @@ section .title::after{
     .about .about-content .right{
         flex: 100%;
     }
+    .services .services-content .card{
+        width: 45%;
+        margin-bottom: 20px ;
+    }
 }
 
 @media (max-width: 690px){
@@ -356,6 +360,9 @@ section .title::after{
         font-size: 20px;
         padding: 9px 25px;
     } 
+    .services .services-content .card{
+        width: 100%;
+    }
 }
 
 @media (max-width: 500px){
@@ -364,5 +371,10 @@ section .title::after{
     }
     .home .home-content .text-3{
         font-size: 27px;
+    }
+}
+@media(min-width: 320px){
+    h2.title::after{
+        font-size: 15px;
     }
 }
