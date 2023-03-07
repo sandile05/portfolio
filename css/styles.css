@@ -131,6 +131,19 @@
     color: crimson;
     background: none;
 }
+/* about section styling */
+.about{
+    font-family: 'Poppins', sans-serif;
+}
+.about .title{
+    font-family: 'Ubuntu', sans-serif;
+}
+.about .about-content .column-left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
 
 /* responsive media query start */
 @media (max-width:1104px){
