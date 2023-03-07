@@ -19,7 +19,7 @@
     position: fixed;
     width: 100%;
     padding: 30px 0;
-    /* background: crimson; */
+    z-index: 999;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
@@ -172,6 +172,7 @@ section{
     height: 400px;
     width: 400px;
     object-fit: cover;
+    border-radius: 6px;;
 }
 
 /* responsive media query start */
