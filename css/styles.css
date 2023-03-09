@@ -416,8 +416,12 @@ section .title::after{
         flex: 100%;
     }
     .services .services-content .card{
-        width: 45%;
+        width: calc(50% - 10px);
         margin-bottom: 20px ;
+    }
+    .skills .skills-content .column{
+        width: 100%;
+        margin-bottom: 35px;
     }
 }
 
@@ -435,7 +439,8 @@ section .title::after{
         font-size: 20px;
         padding: 9px 25px;
     } 
-    .services .services-content .card{
+    .services .services-content .card,
+    .skills .skills-content .column{
         width: 100%;
     }
 }
