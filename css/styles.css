@@ -165,7 +165,7 @@ section .title::after{
     transform: translateX(-50%);
 }
 /* about section styling */
-.about, .services{
+.about, .services, .skills{
     font-family: 'Poppins', sans-serif;
 }
 .about .title::after{
@@ -261,6 +261,10 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
+/* Skills section */
+
+
 
 /* responsive media query start */
 @media (max-width: 1300px){
