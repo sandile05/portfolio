@@ -356,11 +356,14 @@ section .title::after{
 .skills-content .right .css::before{
     width: 60%;
 }
+.skills-content .right .word-press::before{
+    width: 50%;
+}
 .skills-content .right .js::before{
     width: 40%;
 }
 .skills-content .right .ms::before{
-    width: 70%;
+    width: 75%;
 }
 .skills-content .right .photoshop::before{
     width: 70%;
