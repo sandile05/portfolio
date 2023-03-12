@@ -356,6 +356,9 @@ section .title::after{
 .skills-content .right .css::before{
     width: 65%;
 }
+.skills-content .right .git::before{
+    width: 55%;
+}
 .skills-content .right .word-press::before{
     width: 30%;
 }
