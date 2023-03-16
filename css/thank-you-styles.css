@@ -15,8 +15,8 @@ body{
     background: #3c5077;
 }
 .card{
-    width: 400px;
-    height: 400px;
+    width: 360px;
+    height: 360px;
     background: #fff;
     border-radius: 6px;
     position: absolute;
@@ -51,4 +51,8 @@ body{
     border-radius: 4px;
     cursor: pointer;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card button a{
+    color: white;
 }
