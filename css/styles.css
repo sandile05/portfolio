@@ -8,7 +8,7 @@
 }
 :root{
     --main-color: #9C254D;
-    --secondary-color: #ffffff;
+    --secondary-color: #F9F3EE;
     --bg-color: #F9F3EE;
 }
 html{
@@ -400,16 +400,14 @@ section .title::after{
     content: "my work";
 }
 .projects .slider .card{
-    background: #222;
+    background: transparent;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.projects .slider .card:hover{
-    background: #111);
-}
+
 .projects .slider .card .box{
     display: flex;
     flex-direction: column;
@@ -441,10 +439,10 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 .projects .slider .card img{
-    height: 250px;
+    height: 300px;
     width: 300px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 50%;
     border: 5px solid var(--main-color);
     transition: all 0.3s ease;
 }
