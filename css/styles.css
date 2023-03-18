@@ -8,7 +8,7 @@
 }
 :root{
     --main-color: #9C254D;
-    --secondary-color: #F9F3EE;
+    --secondary-color: #ffffff;
     --bg-color: #F9F3EE;
 }
 html{
@@ -407,7 +407,6 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
-
 .projects .slider .card .box{
     display: flex;
     flex-direction: column;
