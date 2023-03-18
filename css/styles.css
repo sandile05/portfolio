@@ -7,7 +7,9 @@
     text-decoration: none;
 }
 :root{
-    --main-color: #4ebdf0;
+    --main-color: #9C254D;
+    --secondary-color: #ffffff;
+    --bg-color: #F9F3EE;
 }
 html{
     scroll-behavior: smooth;
@@ -26,6 +28,7 @@ html{
     background: #555;
 }
 /* all similar content styling codes */
+
 section{
     padding: 100px 0;
 }
@@ -33,6 +36,9 @@ section{
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
+}
+body{
+    background: var(--bg-color);
 }
 .about, .services, .skills, .projects, .contact, footer{
     font-family: 'Poppins', sans-serif;
@@ -72,7 +78,7 @@ section .title::after{
     font-size: 20px;
     color: var(--main-color);
     padding: 0 5px;
-    background: #fff;
+    background: var(--bg-color);
     transform: translateX(-50%);
 }
 /* navbar styling */
@@ -94,7 +100,7 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color: var(--secondary-color);
     font-size: 35px;
     font-weight: 600;
 }
@@ -111,21 +117,21 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: #fff;
+    color: var(--secondary-color);
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: #62CDFF;
+    color: var(--main-color);
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: var(--secondary-color);
 }
 /* menu btn styling */
 .menu-btn{
-    color: #fff;
+    color:var(--secondary-color);
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -134,12 +140,12 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #62CDFF;
+    background: var(--main-color);
     right: 30px;
     bottom: 10px;
     text-align: center;
     line-height: 45px;
-    color: #fff;
+    color: var(--secondary-color);
     z-index: 9999;
     font-size: 30px;
     border-radius: 6px;
@@ -160,9 +166,9 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url('https://images.pexels.com/photos/5186869/pexels-photo-5186869.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center;
+    background: url('https://images.pexels.com/photos/8566875/pexels-photo-8566875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center;
     height: 100vh;
-    color: #fff;
+    color: var(--secondary-color);
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -194,7 +200,7 @@ section .title::after{
 .home .home-content a{
     display: inline-block;
     background: var(--main-color);
-    color: #fff;
+    color: var(--secondary-color);
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -213,13 +219,13 @@ section .title::after{
 .home .home-content .links a{
     background: transparent;
     font-size: 30px;
-    color: #fff;
+    color: var(--main-color);
     border: none;
 }
 .home .home-content .links a:hover{
     transform: scale(1.1);
     transition: all .50s ease;
-    color: var(--main-color);
+    color: var(--secondary-color);
 }
 /* about section styling */
 .about .title::after{
@@ -251,7 +257,7 @@ section .title::after{
 .about .about-content .right a{
     display: inline-block;
     background: var(--main-color);
-    color: #fff;
+    color: var(--secondary-color);
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
@@ -265,13 +271,14 @@ section .title::after{
     background: none;
 }
 /* services section styling */
-.services, .teams{
-    color:#fff;
+
+.services{
+    color:var(--secondary-color);
     background: #111;
 }
 .services .title::before,
 .teams .title::before{
-    background: #fff;
+    background: var(--secondary-color);
 }
 .services .title::after,
 .teams .title::after{
@@ -302,7 +309,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
-    color: #fff;
+    color: var(--secondary-color);
 }
 .services .serv-content .card .text{
     font-size: 25px;
@@ -327,7 +334,7 @@ section .title::after{
 .skills .skills-content .left a{
     display: inline-block;
     background: var(--main-color);
-    color: #fff;
+    color: var(--secondary-color);
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
@@ -401,7 +408,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .projects .slider .card:hover{
-    /* background: var(--main-color); */
+    background: #111);
 }
 .projects .slider .card .box{
     display: flex;
@@ -413,7 +420,7 @@ section .title::after{
 .projects .slider .card .box a{
     display: block;
     background: var(--main-color);
-    color: #fff;
+    color: var(--secondary-color);
     font-size: 20px;
     padding: 6px;
     margin-top: 15px;
@@ -442,7 +449,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .projects .slider .card:hover img{
-    border-color: #fff;
+    border-color: var(--secondary-color);
 }
 .owl-dots{
     text-align: center;
@@ -542,7 +549,7 @@ section .title::after{
   align-items: center;
 }
 .right form .button-area button{
-  color: #fff;
+  color: var(--secondary-color);
   display: block;
   width: 160px!important;
   height: 45px;
@@ -564,7 +571,7 @@ section .title::after{
 footer{
     background: #111;
     padding: 15px 23px;
-    color: #fff;
+    color: var(--secondary-color);
     text-align: center;
 }
 footer span a{
