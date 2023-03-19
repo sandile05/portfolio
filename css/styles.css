@@ -403,11 +403,15 @@ section .title::after{
 }
 .projects .slider .card{
     background: #222;
+    height: 450px;
+    width: 280px;
     border-radius: 6px;
-    padding: 25px 35px;
+    padding: 20px 30px;
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 30px 0;
 }
 .projects .slider .card .box{
     display: flex;
@@ -431,8 +435,9 @@ section .title::after{
     color: var(--main-color);
     background: none;
 }
-.projects .slider .card:hover .box{
+.projects .slider .card:hover{
     transform: scale(1.05);
+    background: var(--bg-color);
 }
 .projects .slider .card .text{
     font-size: 25px;
@@ -440,8 +445,8 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 .projects .slider .card img{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid var(--main-color);
