@@ -78,7 +78,7 @@ section .title::after{
     font-size: 20px;
     color: var(--main-color);
     padding: 0 5px;
-    background: var(--bg-color);
+    background: #222;
     transform: translateX(-50%);
 }
 /* navbar styling */
@@ -274,15 +274,18 @@ section .title::after{
 
 .services{
     color:var(--secondary-color);
-    background: #111;
+    background: var(--bg-color);
+}
+.services .title{
+    color: #222;
 }
 .services .title::before,
 .teams .title::before{
-    background: var(--secondary-color);
+    background: #222;
 }
 .services .title::after,
 .teams .title::after{
-    background: #111;
+    background: var(--bg-color);
     content: "what i provide";
 }
 .services .serv-content .card{
@@ -400,7 +403,7 @@ section .title::after{
     content: "my work";
 }
 .projects .slider .card{
-    background: transparent;
+    background: #222;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -700,9 +703,4 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
-}
-
-
-body .thank-you-card-container{
-
 }
