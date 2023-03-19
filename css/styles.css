@@ -78,7 +78,7 @@ section .title::after{
     font-size: 20px;
     color: var(--main-color);
     padding: 0 5px;
-    background: #222;
+    background: var(--bg-color);
     transform: translateX(-50%);
 }
 /* navbar styling */
@@ -279,10 +279,9 @@ section .title::after{
 .services .title{
     color: #222;
 }
-.services .title::before,
-.teams .title::before{
+/* .services .title::before,.title::before{
     background: #222;
-}
+} */
 .services .title::after,
 .teams .title::after{
     background: var(--bg-color);
