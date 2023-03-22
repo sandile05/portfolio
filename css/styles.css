@@ -7,7 +7,7 @@
     text-decoration: none;
 }
 :root{
-    --main-color: #9C254D;
+    --main-color: #1cb8b8;
     --secondary-color: #ffffff;
     --bg-color: #F9F3EE;
 }
@@ -166,7 +166,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url('https://images.pexels.com/photos/8566875/pexels-photo-8566875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center;
+    background: url('https://images.pexels.com/photos/14108392/pexels-photo-14108392.jpeg') no-repeat center;
     height: 100vh;
     color: var(--secondary-color);
     min-height: 500px;
@@ -377,26 +377,26 @@ section .title::after{
     background: var(--main-color);
 }
 .skills-content .right .html::before{
-    width: 85%;
+    width: 80%;
 }
 .skills-content .right .css::before{
-    width: 65%;
+    width: 70%;
 }
 .skills-content .right .git::before{
-    width: 55%;
+    width: 65%;
 }
-.skills-content .right .word-press::before{
+/* .skills-content .right .word-press::before{
     width: 30%;
-}
+} */
 .skills-content .right .js::before{
-    width: 40%;
+    width: 55%;
 }
 .skills-content .right .ms::before{
     width: 75%;
 }
-.skills-content .right .photoshop::before{
+/* .skills-content .right .photoshop::before{
     width: 60%;
-}
+} */
 /* projects section styling */
 .projects .title::after{
     content: "my work";
