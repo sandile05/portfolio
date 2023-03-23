@@ -404,14 +404,14 @@ section .title::after{
 .projects .slider .card{
     background: #222;
     height: 450px;
-    width: 280px;
+    width: 300px;
     border-radius: 6px;
     padding: 20px 30px;
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin: 30px 0;
+    margin: 0 auto;
 }
 .projects .slider .card .box{
     display: flex;
