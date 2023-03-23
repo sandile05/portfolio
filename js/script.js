@@ -78,15 +78,15 @@ $(document).ready(function(){
         reset: true
     })
     
-    sr.reveal ('.home-content', {delay:300});
-    sr.reveal('.title', {delay:400});
+    sr.reveal ('.home-content', {delay:200});
+    sr.reveal('.title', {delay:300});
     
-    sr.reveal('.about-content', {delay:400});
-    sr.reveal('.serv-content', {delay: 300});
+    sr.reveal('.about-content', {delay:300});
+    sr.reveal('.serv-content', {delay: 200});
     
     
-    sr.reveal('.skills-content', {delay: 400});
-    sr.reveal('.slider', {delay:300});
+    sr.reveal('.skills-content', {delay: 300});
+    sr.reveal('.slider', {delay:200});
     
-    sr.reveal('.contact', {delay: 300});
+    sr.reveal('.contact', {delay: 200});
 });
